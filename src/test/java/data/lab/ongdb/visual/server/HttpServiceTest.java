@@ -22,7 +22,7 @@ public class HttpServiceTest {
     // 定义日志记录器对象
     // org.apache.logging.log4j.LogManager
     // org.apache.logging.log4j.Logger
-    public static final Logger LOGGER = LogManager.getLogger(HttpServiceTest.class);
+    private static final Logger LOGGER = LogManager.getLogger(HttpServiceTest.class);
 
     @Test
     public void testQuick() throws Exception {
